@@ -51,13 +51,12 @@ Subnets are segments within the VPC that divide it into smaller networks. These 
 
 ---
 
-### 🛣️ Route Tables (4 Total)
+### 🛣️ Route Tables
 Route tables control where traffic goes within the VPC.
 
-- `prod-example-rtb-public`: Likely associated with both public subnets; routes include access to the internet via the Internet Gateway.
+- `prod-example-rtb-public`:  Associated with both public subnets; routes include access to the internet via the Internet Gateway.
 - `prod-example-rtb-private1-ap-south-1a`: Associated with the private subnet in `ap-south-1a`.
 - `prod-example-rtb-private2-ap-south-1b`: Associated with the private subnet in `ap-south-1b`.
-- `rtb-0b0d0e51d28c1fda7`: Could be a default or unused route table (needs further inspection).
 
 ---
 
