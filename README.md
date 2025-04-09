@@ -1,6 +1,16 @@
 # vpc-prod-nat-setup
 
-This project provides a detailed explanation of setting up a production-level VPC.
+In this project, I designed and deployed a production-level VPC setup on AWS from scratch, focusing on best practices for **security**, **scalability**, and **high availability**.  
+
+## 🔑 Key Components
+
+- ✅ **Custom VPC** with public and private subnets across two Availability Zones  
+- ✅ **Internet Gateway** and **dual NAT Gateways** for secure outbound internet access  
+- ✅ **Bastion Host** setup to securely access private EC2 instances  
+- ✅ **Launch Template** & **Auto Scaling Group** for dynamic instance management  
+- ✅ **Application Load Balancer (ALB)** configured to distribute traffic to private instances  
+- ✅ **Sample web application** deployed on port 8000 inside private subnets  
+- ✅ **Security Groups** and **Route Tables** configured for controlled traffic flow  
 
 ![alt text](images/architecturediag.png)
 
